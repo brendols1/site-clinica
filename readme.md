@@ -1,3 +1,8 @@
+<h1 align="center">
+<br>
 Site clinica criada para o desafio de projeto da Dio
+ <br>
+</h1>
+<div align="center">
 
-A clinica ficticia criada se chama Majestic, localizada em Natal, especializada em Ortopedia e Traumatologia.
+## A clinica ficticia criada se chama Majestic, localizada em Natal, especializada em Ortopedia e Traumatologia.
