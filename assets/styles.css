@@ -1,0 +1,242 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial';
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #e2e2e2;
+    padding-left: 0px;
+    padding-right: 39px;
+    font-size: small;
+
+}
+
+.img-mjs{
+    width: 376px;
+    position: absolute;
+    left: 15rem;
+    top: 21rem;
+}
+
+.header {
+    background-color: rgb(209, 209, 209);
+    min-height: 150px;
+}
+
+.logo {
+    width: 220px;
+    position: absolute;
+    left: 15rem;
+    top: 3rem;
+    cursor: pointer;
+}
+
+
+.central-hd {
+    background-color: #777;
+    height: 45px;
+    font-size: smaller;
+    color:#e2e2e2
+}
+
+.central-atdo {
+    position: absolute;
+    left: 44rem;
+    top: 1rem;
+}
+
+.central-em{
+    position: absolute;
+    left: 60rem;
+    top: 1rem;
+}
+
+.social-media {
+    position: absolute;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.social-network{
+    width: 200px;
+    min-height: 100px;
+    left: 56rem;
+    position: absolute;
+}
+
+.facebook, .twitter, .youtube, .instagram{
+    cursor: pointer;
+    margin: 5px;
+}
+
+.social-media img{
+    width: 21px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.social-media a{
+    margin: 0px 5px;
+    padding: 0px;
+}
+
+.btn-whatsapp img{
+    height: 25px;
+}
+
+.btn-whatsapp{
+    width: 160px;
+    height: 30px;
+    border: none;
+    background-color: #29a71a;
+    color: white;
+    margin: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-whatsapp b{
+    vertical-align: super;
+}
+
+.btn-whatsapp:hover {
+    background: #28a71aec;
+  }
+
+
+.content {
+    background-color: white;
+    min-height: 450px;
+    padding: 5px;
+}
+.footer {
+    background-color: white;
+    min-height: 150px;
+}
+
+.quem-somos{
+    width: 480px;
+    height: 170px;
+}
+
+.quem-somos h1{
+   color: #02579b;
+}
+
+.quem-somos p{
+    text-align: justify;
+    color: #979796;
+    margin-top: 0px;
+    height: 130px;
+    width: 473px;
+    font-size: 17.5px;
+}
+
+.info-hd{
+    display: flex;
+    height: 90px;
+}
+
+h6{
+    color: #02579b;
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.como p, .hour p, .urgency p{
+    color: #979796;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.como, .hour, .urgency{
+    margin-left: 63px;
+    width: 250px;
+}
+
+.formulario input, textarea{
+    margin: 0 0 10px 0; 
+    padding: 10px;
+    color: white;
+    background-color: #02579b;
+    border: none;
+    
+} 
+
+textarea{
+    background-color: #02579b;
+    resize: none;
+    overflow-y: auto;
+}
+
+.contact-text{
+    color: #02579b;
+}
+
+.contact-form{
+    position: absolute;
+    left: 46rem;
+    top: 10rem;
+    text-align: justify;
+    color: #979796;
+    margin-top: 0px;
+    height: 130px;
+    width: 473px;
+    font-size: 17.5px;
+}
+
+.btn-submit, .btn-reset{
+    cursor: pointer;
+    width: 70px !important;
+    height: 35px !important
+}
+
+.text-form{
+    width: 400px;
+    height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+ 
+ }
+
+.list-menu{
+    width: 205px;
+    padding: 0px;
+}
+
+.list-menu li{
+    margin-top: 50px;
+}
+.menu a{
+    font-size: 14.5px;
+    text-decoration: none;
+    white-space: nowrap;
+ }
